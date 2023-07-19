@@ -149,8 +149,31 @@ margin-left:20px;
 height: 40px;
 flex-shrink: 0;
 
-
-
 }
 
 
+/*responsive smaller device*/
+
+@media screen and (max-width:576px){
+
+
+    header { 
+           
+       padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+
+    }
+   .benner
+   {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+   }
+   .about, .develop, .follow
+    {
+      flex-direction: column;
+      margin-left: 0px;
+    }
+}
