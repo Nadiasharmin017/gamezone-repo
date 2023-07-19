@@ -1,0 +1,156 @@
+/* shared styles */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+    header {
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+        padding: 50px 240px;
+        height: 130px;
+        display: flex;
+        
+    }
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+nav > ul{
+ display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 35px;
+    display: flex;
+    
+}
+nav li a{
+    text-decoration: none;
+    display: flex;
+    
+    
+}
+
+.benner
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+
+    
+    
+}
+
+
+
+
+.about
+{
+    display: flex;
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height:normal;
+
+
+
+
+
+}
+
+
+.develop
+{
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.follow
+{
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.followdiv
+{
+    width: 262px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+ align-items: center;
+ padding-bottom: 10px;
+ display: flex;
+ font-size: medium;
+ /* shared styles */
+
+
+}
+
+.vector
+{
+    width: 33.916px;
+height: 24px;
+flex-shrink: 0;
+}
+.tiktok
+{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin-left: 5px;
+}
+
+
+
+
+.gamer
+{
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left:20px;
+}
+.gameicon
+{
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+    
+   
+}
+.frame
+{
+    width: 86.041px;
+height: 40px;
+flex-shrink: 0;
+
+
+
+}
+
+
