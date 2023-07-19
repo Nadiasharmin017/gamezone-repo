@@ -211,9 +211,10 @@ text-align: center;
 /*button g.o.a.t*/
 .btn2
 {
-  margin-left: 130px;
+ /* margin-left: 100px;*/
   display: flex;
   text-align: center;
+  gap: 30px;
  
 }
 
@@ -245,11 +246,12 @@ text-align: center;
 .goattext
 {
    /*align-items: center;*/
-    margin-left: 90px;
-    margin-right: 800px;
-   margin-bottom: 790px;
+   /* margin-left: 100px;
+   /* margin-right: 800px;*/
+  /* margin-bottom: 790px;*/
   background-color: #8C57EE0D, #F144AE0D;
-  margin-left: 200px;
+  margin-left: 170px;
+
 
 
 
@@ -262,7 +264,8 @@ text-align: center;
     background: url(<path-to-image>), lightgray 100% / cover no-repeat;
     background: #FFF;
     display: flex;
-   /* align-items: center;*/
+   /*align-items: center;*/
+  /* margin-right: 50px;*/
  
     
     
