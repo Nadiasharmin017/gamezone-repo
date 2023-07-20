@@ -297,16 +297,18 @@ text-align: center;
 
 
     header { 
-           
-       padding: 20px;
+           margin-left: 20px;
+       padding: 60px;
        /*text-align: center;*/
+       box-shadow: none;
     }
     nav{
         flex-direction: column;
         /*flex-wrap: nowrap;*/
        /* align-content: stretch;*/
-        justify-content: flex-start;
-        align-items: flex-end;
+        /*justify-content: flex-start;*/
+       /*  align-items: flex-end;*/
+      /* justify-content: center;*/
         
       
     }
@@ -317,6 +319,7 @@ text-align: center;
     /*margin-left: 20px;*/
      
     /* flex-wrap: wrap;*/
+    margin-left: 6px;
 
    }
    .about, .develop, .follow
@@ -336,5 +339,27 @@ text-align: center;
         align-content: center;
         align-items: center;
         margin-top: 400px;
+
+}
+ /*img
+ {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    flex-direction: column;
+ }*/
+ /*.gameicon
+ {
+   /* box-shadow: none;
+    background-color: none ;
+   
+ }*/
+
+ .png1
+ {
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    font-size: small;
+ }
 
 }
