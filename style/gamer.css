@@ -214,7 +214,7 @@ text-align: center;
  /* margin-left: 100px;*/
   display: flex;
   text-align: center;
-  gap: 30px;
+  gap: 20px;
  
 }
 
@@ -250,20 +250,18 @@ text-align: center;
    /* margin-right: 800px;*/
   /* margin-bottom: 790px;*/
   background-color: #8C57EE0D, #F144AE0D;
-  margin-left: 170px;
-
-
-
-
-   
+  margin-left: 180px;
+  margin-top: 90px;
+  
    
 }
 .png1
 {
     
-    background: url(<path-to-image>), lightgray 100% / cover no-repeat;
-    background: #FFF;
+   /* background: url(<path-to-image>), lightgray 100% / cover no-repeat;
+    background: #FFF;*/
     display: flex;
+    
    /*align-items: center;*/
   /* margin-right: 50px;*/
  
@@ -277,7 +275,7 @@ text-align: center;
 {
     display: flex;
     justify-content: space-between;
-    margin-top: 200px;
+    /*margin-top: 200px;*/
     
     
    
@@ -301,20 +299,42 @@ text-align: center;
     header { 
            
        padding: 20px;
+       /*text-align: center;*/
     }
     nav{
         flex-direction: column;
-
+        /*flex-wrap: nowrap;*/
+       /* align-content: stretch;*/
+        justify-content: flex-start;
+        align-items: flex-end;
+        
+      
     }
    .benner
    {
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 20px;
+    /*align-items: flex-start;*/
+    /*margin-left: 20px;*/
+     
+    /* flex-wrap: wrap;*/
+
    }
    .about, .develop, .follow
     {
       flex-direction: column;
+      align-items: flex-start;
       margin-left: 0px;
+      justify-content: flex-end;
     }
+
+
+
+    .firstsection
+    {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        margin-top: 400px;
+
 }
