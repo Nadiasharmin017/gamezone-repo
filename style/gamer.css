@@ -552,7 +552,13 @@ margin-top: 110px;
         flex-wrap: wrap;
         align-content: flex-end;
     }
-
+     
+    .online
+    {
+        font-size: 48px;
+    font-weight: 700;
+    
+    }
    .img4 /*online game funny video img 4 */
   {
     flex-direction: column;
