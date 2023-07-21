@@ -293,7 +293,7 @@ nav li a {
 .img4
 {
     display: flex;
-    gap: 20px;
+    gap: 30px;
    margin-left: 25px;
 }
 
@@ -411,6 +411,7 @@ nav li a {
 {    
     display: flex;
     align-items: center;
+    
    /* width: 203px;*/
  height: 80px;
  gap: 20px;
@@ -419,6 +420,7 @@ background: #FFF;
 margin-left: 80px;
 margin-top: 110px;
 cursor: pointer;
+border: none;
 }
 .yellow:hover {
     color: #FF42A5;
@@ -447,6 +449,7 @@ cursor: pointer;
    /* width: 1500px;*/
     height: 636px;
     background: #0B0223;
+    margin-left: 0px;
    
 }
 
@@ -577,7 +580,7 @@ cursor: pointer;
         align-content: center;
         align-items: center;
         margin-top: 300px;
-        margin-left: 130px;
+       margin-left: 130px;
 
     }
 
@@ -598,18 +601,26 @@ cursor: pointer;
         justify-content: center;
         flex-direction: column;
         padding-right: 10px;
-        margin-left: 80px;
+        margin-left: 60px;
         font-size: small;
         width: 100%;
         height: 100%;
         flex-wrap: wrap;
-        align-content: flex-end;
+       align-content: flex-end;
+       align-items: center;
+
     }
      
-    .online
+    .onlinefunny
     {
-        font-size: 48px;
-    font-weight: 700;
+      
+   /* font-weight: 700;*/
+   width: 680px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+   
     
     }
    .img4 /*online game funny video img 4 */
@@ -643,11 +654,11 @@ cursor: pointer;
 }
 .boy
 {
-    width: 10%;
+    width: 100%;
 }
 .cat
 {
-    width: 5%;
+    width: 100%;
 }
 
 .text /*para+heading*/
@@ -657,11 +668,12 @@ cursor: pointer;
 }
 
     
-   
 .backpink
 {
     width: 706px;
-   height: 909px;
+   height: 709px;
+   justify-content: flex-start;
+  /* flex-wrap: wrap;*/
 
 
 }
@@ -670,27 +682,21 @@ cursor: pointer;
 
     width: 103px;
     height: 50px;
-    border-radius: 50px;
-    margin-left: 90px;
+    border-radius: 40px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+
+   
 }
   
 
   
 
  
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 .lastpart
 {
@@ -699,13 +705,14 @@ cursor: pointer;
     margin: 0px;
 }
 .gamepart{
-    margin-left: 230px;
+    /*margin-left: 230px;*/
+    justify-content: center;
     
 
 }
-.ourstory
+/*.ourstory
 {
-    margin-left: 50px;
+   /* margin-left: 50px;
 
 }
 .fb{
@@ -721,7 +728,7 @@ cursor: pointer;
 .lastyear
 {
     margin-left: 5px;
-}
+}*/
 
 
 }
