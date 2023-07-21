@@ -400,6 +400,83 @@ margin-top: 110px;
 
 
 
+
+.lastpart
+
+{
+    width: 1500px;
+    height: 636px;
+    background: #0B0223;
+   
+}
+
+
+.gamepart
+{
+    display: flex;
+    align-items: center;
+    margin-left: 540px;
+    
+    
+}
+.last1
+{
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ourstory
+{
+    
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 370px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.fb
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    gap: 30px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+
+.policy4
+{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.lastyear
+{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
 /*responsive smaller device*/
 
 @media screen and (max-width:576px) {
@@ -481,7 +558,10 @@ margin-top: 110px;
     flex-direction: column;
     align-items: center;
     /*margin-left: 300px;*/
-    width: 100%;
+    width: 556px;
+    
+    
+    
   }
 
 
@@ -503,11 +583,11 @@ margin-top: 110px;
 }
 .boy
 {
-    width: 30%;
+    width: 10%;
 }
 .cat
 {
-    width: 10%;
+    width: 5%;
 }
 
 .text /*para+heading*/
@@ -518,13 +598,70 @@ margin-top: 110px;
 
     
    
+.backpink
+{
+    width: 656px;
+   height: 909px;
 
+
+}
+.yellow
+{
+
+    width: 103px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 90px;
+}
   
 
   
 
  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lastpart
+{
+    width: 656px;
+    height: 709px;
+    margin: 0px;
+}
+.gamepart{
+    margin-left: 230px;
+    
+
+}
+.ourstory
+{
+    margin-left: 50px;
+
+}
+.fb{
+    margin-left: 170px;
+}
+..policy4
+{
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.lastyear
+{
+    margin-left: 5px;
+}
 
 
 }
